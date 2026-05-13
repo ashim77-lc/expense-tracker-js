@@ -1,0 +1,108 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    padding: 30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.total-card {
+    background: #2ecc71;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.total-card h2 {
+    font-size: 2rem;
+}
+
+.form-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover { background: #2980b9; }
+
+.filter-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.filter-bar select { margin-bottom: 0; }
+
+.expense-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    border-left: 4px solid #3498db;
+}
+
+.expense-item .info span { display: block; }
+
+.expense-item .info .category {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.expense-item .amount {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.del-btn {
+    width: auto;
+    padding: 6px 12px;
+    background: #e74c3c;
+    font-size: 0.85rem;
+}
+
+.del-btn:hover { background: #c0392b; }
+
+.empty {
+    text-align: center;
+    color: #aaa;
+    padding: 20px;
+}
